@@ -1,0 +1,15 @@
+# Local database and secrets: never commit these
+*.db
+.secret_key
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
